@@ -60,8 +60,8 @@
 				<img src="images/esfot2.JPG" alt="">
 					<div class="slider-info">
 
-						<div class="button">
-							<a href="#" data-toggle="modal" data-target="#myModal">Más<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
+						<div class="button" style="font-weight: bold;">
+							<a href="#" data-toggle="modal" data-target="#myModal">Más<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></a>
 						</div>
 					</div>
 			</li>
@@ -69,8 +69,8 @@
 				<img src="images/esfot3.JPG" alt="">
 					<div class="slider-info">
 
-						<div class="button">
-							<a href="#" data-toggle="modal" data-target="#myModal">Más<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
+						<div class="button" style="font-weight: bold;">
+							<a href="#" data-toggle="modal" data-target="#myModal">Más<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></a>
 						</div>
 					</div>
 			</li>
@@ -78,8 +78,8 @@
 				<img src="images/esfot4.JPG" alt="">
 					<div class="slider-info">
 
-						<div class="button">
-							<a href="#" data-toggle="modal" data-target="#myModal">Más<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
+						<div class="button" style="font-weight: bold;">
+							<a href="#" data-toggle="modal" data-target="#myModal">Más<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></a>
 						</div>
 					</div>
 			</li>
@@ -87,8 +87,8 @@
 				<img src="images/esfot5.JPG" alt="">
 					<div class="slider-info">
 
-						<div class="button">
-							<a href="#" data-toggle="modal" data-target="#myModal">Más<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
+						<div class="button" style="font-weight: bold;">
+							<a href="#" data-toggle="modal" data-target="#myModal">Más<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></a>
 						</div>
 					</div>
 			</li>
@@ -107,8 +107,8 @@
 				<img src="images/esfot7.jpg" alt="">
 					<div class="slider-info">
 
-						<div class="button" >
-							<a href="#" data-toggle="modal" data-target="#myModal">Más<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
+						<div class="button" style="font-weight: bold;" >
+							<a href="#" data-toggle="modal" data-target="#myModal">Más<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></a>
 						</div>
 					</div>
 			</li>
@@ -116,8 +116,8 @@
 				<img src="images/esfot8.JPG" alt="">
 					<div class="slider-info">
 
-						<div class="button">
-							<a href="#" data-toggle="modal" data-target="#myModal">Más<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
+						<div class="button" style="font-weight: bold;">
+							<a href="#" data-toggle="modal" data-target="#myModal">Más<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></a>
 						</div>
 					</div>
 			</li>
@@ -125,8 +125,8 @@
 				<img src="images/esfot9.JPG" alt="">
 					<div class="slider-info">
 
-						<div class="button">
-							<a href="#" data-toggle="modal" data-target="#myModal">Más<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
+						<div class="button" style="font-weight: bold;">
+							<a href="#" data-toggle="modal" data-target="#myModal">Más<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></a>
 						</div>
 					</div>
 			</li>
@@ -134,8 +134,8 @@
 				<img src="images/esfot10.JPG" alt="">
 					<div class="slider-info">
 
-						<div class="button">
-							<a href="#" data-toggle="modal" data-target="#myModal">Más<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
+						<div class="button" style="font-weight: bold;">
+							<a href="#" data-toggle="modal" data-target="#myModal">Más<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></a>
 						</div>
 					</div>
 			</li>
