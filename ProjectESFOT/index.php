@@ -60,8 +60,8 @@
 				<img src="images/esfot2.JPG" alt="">
 					<div class="slider-info">
 
-						<div class="button">
-							<a href="#" data-toggle="modal" data-target="#myModal">Más<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
+						<div class="button" style="font-weight: bold;">
+							<a href="#" data-toggle="modal" data-target="#myModal">Más<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></a>
 						</div>
 					</div>
 			</li>
@@ -69,8 +69,8 @@
 				<img src="images/esfot3.JPG" alt="">
 					<div class="slider-info">
 
-						<div class="button">
-							<a href="#" data-toggle="modal" data-target="#myModal">Más<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
+						<div class="button" style="font-weight: bold;">
+							<a href="#" data-toggle="modal" data-target="#myModal">Más<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></a>
 						</div>
 					</div>
 			</li>
@@ -78,8 +78,8 @@
 				<img src="images/esfot4.JPG" alt="">
 					<div class="slider-info">
 
-						<div class="button">
-							<a href="#" data-toggle="modal" data-target="#myModal">Más<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
+						<div class="button" style="font-weight: bold;">
+							<a href="#" data-toggle="modal" data-target="#myModal">Más<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></a>
 						</div>
 					</div>
 			</li>
@@ -87,8 +87,8 @@
 				<img src="images/esfot5.JPG" alt="">
 					<div class="slider-info">
 
-						<div class="button">
-							<a href="#" data-toggle="modal" data-target="#myModal">Más<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
+						<div class="button" style="font-weight: bold;">
+							<a href="#" data-toggle="modal" data-target="#myModal">Más<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></a>
 						</div>
 					</div>
 			</li>
@@ -107,8 +107,8 @@
 				<img src="images/esfot7.jpg" alt="">
 					<div class="slider-info">
 
-						<div class="button" >
-							<a href="#" data-toggle="modal" data-target="#myModal">Más<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
+						<div class="button" style="font-weight: bold;" >
+							<a href="#" data-toggle="modal" data-target="#myModal">Más<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></a>
 						</div>
 					</div>
 			</li>
@@ -116,8 +116,8 @@
 				<img src="images/esfot8.JPG" alt="">
 					<div class="slider-info">
 
-						<div class="button">
-							<a href="#" data-toggle="modal" data-target="#myModal">Más<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
+						<div class="button" style="font-weight: bold;">
+							<a href="#" data-toggle="modal" data-target="#myModal">Más<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></a>
 						</div>
 					</div>
 			</li>
@@ -125,8 +125,8 @@
 				<img src="images/esfot9.JPG" alt="">
 					<div class="slider-info">
 
-						<div class="button">
-							<a href="#" data-toggle="modal" data-target="#myModal">Más<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
+						<div class="button" style="font-weight: bold;">
+							<a href="#" data-toggle="modal" data-target="#myModal">Más<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></a>
 						</div>
 					</div>
 			</li>
@@ -134,8 +134,8 @@
 				<img src="images/esfot10.JPG" alt="">
 					<div class="slider-info">
 
-						<div class="button">
-							<a href="#" data-toggle="modal" data-target="#myModal">Más<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
+						<div class="button" style="font-weight: bold;">
+							<a href="#" data-toggle="modal" data-target="#myModal">Más<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></a>
 						</div>
 					</div>
 			</li>
@@ -175,7 +175,7 @@
 	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" >
 		<div class="modal-dialog">
 		<!-- Modal content-->
-            <form  id="myForm"   action="<?php echo $_SERVER["PHP_SELF"]?>" method="post">
+            <form  id="myForm">
 			<div class="modal-content">
 				<div class="modal-header">
 					<button id="btn-salir"  type="button" class="close" data-dismiss="modal" >&times;</button>
@@ -193,6 +193,7 @@
                         <div class="price-div" >
                             <ul class="media-list">
                         <li class="media">
+<!--
         <div class="media-body">
             
             <h3 class="media-heading" ><input  class="btn btn-primary btn-lg active" name="submit" id="fileInput" type="file" size="100" onchange="processFiles(this.files)"></h3>
@@ -200,6 +201,20 @@
               <textarea style="width:100%"  class="form-control custom-control"  name="fileOutput" id="fileOutput" type="file" cols ="100" rows="20" align="center" disabled ></textarea>
           </p>
             </div>
+-->
+                            
+                            <div id="page-wrapper">
+
+		<div id="media-body" class="media-body">
+			<h3>Seleccione un archivo: </h3>
+			<h3 class="media-heading" ><input type="file" id="fileInput" type="file" class="btn btn-primary btn-lg active" size="500" ></h3>
+		<p>
+     <textarea id="fileDisplayArea"  name="fileDisplayArea" style="width:100%"  class="form-control custom-control"   type="file" cols ="100" rows="20" align="center" disabled ></textarea>
+            </p>
+            </div>
+
+	</div>
+                            
                             </li>
     </ul>
                         </div>
@@ -289,6 +304,7 @@
         
 		<script type="text/javascript" src="js/move-top.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/text.js"></script>
 		<script type="text/javascript" src="js/easing.js"></script>
 		<script type="text/javascript" src="js/top.js"></script>
 	<!-- start-smoth-scrolling -->
