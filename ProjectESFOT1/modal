@@ -1,0 +1,59 @@
+<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" >
+		<div class="modal-dialog">
+		<!-- Modal content-->
+            <form  id="myForm">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button id="btn-salir"  type="button" class="close" data-dismiss="modal" >&times;</button>
+						<h2 align="center">Proyecto Integrador</h2>
+						<br>
+							<h3 align="center">Implementación de un sistema de video vigilancia mediante el 
+								uso de cámaras IP en los pasillos  de las aulas de la Escuela de
+								Formación de Tecnólogos (ESFOT) de la Escuela Politécnica Nacional
+								</h3>	
+							
+				<div class="row ">
+                    
+					
+                    <div class="col-md-12">
+                        <div class="price-div" >
+                            <ul class="media-list">
+                        <li class="media">
+<!--
+        <div class="media-body">
+            
+            <h3 class="media-heading" ><input  class="btn btn-primary btn-lg active" name="submit" id="fileInput" type="file" size="100" onchange="processFiles(this.files)"></h3>
+          <p>
+              <textarea style="width:100%"  class="form-control custom-control"  name="fileOutput" id="fileOutput" type="file" cols ="100" rows="20" align="center" disabled ></textarea>
+          </p>
+            </div>
+-->
+                            <p></p>
+                            <p></p>
+                            <div id="page-wrapper">
+
+		<div id="media-body" class="media-body">
+			<h3>Seleccione un archivo: </h3>
+            <p></p>
+			<h3 class="media-heading" ><input type="file" id="fileInput" type="file" class="btn btn-primary btn-lg active" size="500" ></h3>
+		<p>
+     <textarea id="fileDisplayArea"  name="fileDisplayArea" style="width:100%"  class="form-control custom-control"   type="file" cols ="100" rows="20" align="center" disabled ></textarea>
+            </p>
+            </div>
+
+	</div>
+                            
+                            </li>
+    </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+				  
+				</div>
+			</div>
+				</form>		
+		</div>
+	</div>
+    
+	<!-- //Modal1 -->
